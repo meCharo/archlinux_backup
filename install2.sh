@@ -28,6 +28,8 @@ useradd -m -G wheel -s /bin/bash charo
 
 # 2) sudo configuration
 # pacman -S sudo
+# vim /etc/sudoers
+# charo ALL=(ALL) ALL
 
 # 3) ssh
 # systemctl enable sshd
