@@ -33,6 +33,7 @@ useradd -m -G wheel -s /bin/bash charo
 
 # 3) ssh
 # systemctl enable sshd
+# pacman -S openssh
 
 # 4) gpu driver and bumblebee
 # lspci -k | grep -A 2 -E "(VGA|3D)"
